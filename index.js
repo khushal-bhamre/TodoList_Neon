@@ -1,5 +1,5 @@
 import express from "express";
-import db from "./util.mjs";
+import db from "./pgClient";
 import bodyParser from "body-parser";
 
 const app = express();
